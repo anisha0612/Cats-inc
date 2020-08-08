@@ -7,9 +7,11 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles({
   name: {
     fontSize: "2em",
+    fontWeight: "400",
   },
   email: {
     fontSize: "1.3em",
+    fontWeight: "400",
   },
   paddingTop: {
     paddingTop: "1.2em",
