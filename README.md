@@ -6,7 +6,7 @@ This is a React.js web app using APIs to fetch data to render a card for each ca
 
 Before running the project run :
 
-### npm install
+### `npm install`
 
 ## Available Scripts
 
