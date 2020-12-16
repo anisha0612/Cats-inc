@@ -9,7 +9,11 @@ const useStyles = makeStyles({
   },
 });
 
-const SearchBox = ({ handleChange }) => {
+interface ISearchBoxProps {
+handleChange(event:React.SyntheticEvent<HTMLElement>):void
+}
+
+const SearchBox = ({ handleChange }:ISearchBoxProps) => {
   const classes = useStyles();
   return (
     <div className={classes.textField}>
